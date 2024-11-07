@@ -1,0 +1,120 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("bg_img.jpg");
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 550px; 
+    margin-top: 60px; 
+    color: black; 
+    font-family: Comic Sans MS; 
+    font-size: 23px; 
+    font-weight: 500; 
+    font-style: italic;
+    background-color: rgba(234, 223, 232, 0.18); 
+    margin-left: auto; 
+    margin-right: auto;
+    border-radius: 10px; 
+    box-shadow: 0px 0px 0px 5px rgba(73, 62, 62, 0.26);
+    padding: 20px; 
+    margin-bottom: 60px;
+}
+
+.container h1 {
+    text-align: center; 
+    color: white;
+}
+
+.newtask {
+    border: 0;
+    outline: 0;
+    background: #ebfffe;
+    color: black;
+    height: 45px;
+    width: 350px;
+    border-radius: 25px;
+    font-size: 18px;
+    margin-left: 15px;
+    padding: 2px 10px;
+    text-align: left;
+    font-family: Comic Sans MS;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.input {
+    margin-top: 6px;
+}
+
+.add {
+    border: 4px solid white;
+    outline: 0;
+    color: white;
+    height: 49px;
+    font-family: Comic Sans MS;
+    font-weight: 800;
+    width: 125px;
+    border-radius: 25px;
+    font-size: 18px;
+    margin-left: 21px; 
+    padding: 2px 35px;
+    cursor: pointer;
+    background-color: rgb(228, 52, 213);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    color: white;
+    font-weight: 800;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.status-group {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-direction: row;
+    width: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+button {
+    border: 4px solid white;
+    outline: 0;
+    color: white;
+    height: 49px;
+    font-family: Comic Sans MS;
+    font-weight: 800;
+    width: 125px;
+    border-radius: 25px;
+    font-size: 18px;
+    margin-left: 15px; 
+    padding: 1px 30px;
+    cursor: pointer;
+    background-color: rgb(228, 52, 213);
+}
+
+input[type="radio"] {
+    transform: scale(1.5); 
+    color: black;
+    background: black;
+}
+
+.slogan{
+    color: white;
+    font-size: 27px;
+    text-align: center;
+    font-weight: 600;
+}
